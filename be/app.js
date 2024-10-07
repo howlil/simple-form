@@ -10,7 +10,8 @@ var formRoute = require("./routes/formRoutes");
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://simple-form-zeta.vercel.app",
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",  
     credentials: true,
   })
 );
