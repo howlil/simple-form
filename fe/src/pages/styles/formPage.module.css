@@ -1,0 +1,53 @@
+
+.formPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #1e1e1e, #3c3c3c); 
+    box-sizing: border-box;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .formPage h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .formPage form {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px); 
+    border: 1px solid rgba(255, 255, 255, 0.18); 
+    box-sizing: border-box;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+  }
+  
+
+  
+ 
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @media (max-width: 480px) {
+    .formPage h1 {
+      font-size: 2rem;
+    }
+  
+    .formPage form {
+      padding: 1.5rem;
+    }
+  }
+  

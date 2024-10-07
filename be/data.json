@@ -1,0 +1,20 @@
+[
+  {
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "phone": "1234567890",
+    "password": "password123",
+    "age": 25,
+    "address": "1234 Elm Street",
+    "dateSubmitted": "2024-10-06T23:30:05.354Z"
+  },
+  {
+    "name": "rahulila",
+    "email": "admanda@gmail.com",
+    "phone": "6285263647",
+    "password": "@Test123",
+    "age": "20",
+    "address": "kandndakasasasasasasasasas",
+    "dateSubmitted": "2024-10-07T00:25:47.430Z"
+  }
+]
