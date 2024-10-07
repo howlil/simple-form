@@ -24,7 +24,7 @@ const FormPage = () => {
 
     if (Object.keys(validationErrors).length === 0) {
       axios
-        .post("http://localhost:3000/api/form", formData)
+        .post("https://api-308154634208.us-east1.run.app/api/form", formData)
         .then((response) => {
           navigate("/success", { state: { formData } });
         })
